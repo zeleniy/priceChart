@@ -183,7 +183,7 @@ class PriceChart {
                 if (i == 0) {
                     return d.key + ':';
                 } else {
-                    return d.price + ' руб.';
+                    return d.price + ' ₽';
                 };
             });
     }
